@@ -26,3 +26,7 @@ class TestSum(unittest.TestCase): # Creates test class inherited from unittest.T
 
 if __name__ == "__main__": # Sets behavior when called directly
     unittest.main()
+
+# At the end of the notebook, describe the test results in your own words.  What do the test results mean?
+# The test results show two tests. The first test passes, as 1 + 2 + 3 = 6. The test runs a sum on the three elements and compares it to 6.
+# The second test sums three fractions, 1/4 + 1/4 + 2/5. The answer is 9/10, which is not equal to 1. Thus the test fails.
